@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bata Zimbabwe - Products</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .product-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 220px;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <div class="container">
-    <a href="index.html" class="logo"><img src="https://thrivemyway.com/wp-content/uploads/2022/03/Bata-Logo-Shoe-Brands-1.png" alt="Bata Logo" /></a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html" class="active">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="store-locator.html">Store Locator</a></li>
-        <li><a href="promotions.html">Promotions</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <h1>Our Products</h1>
+  <h2>Our Products</h2>
   <div class="product-grid">
-    <div class="product-card">
-      <img src="https://5.imimg.com/data5/ANDROID/Default/2023/4/301968437/FP/QI/KC/20518332/product-jpeg-100x100.jpg" alt="Classic Sneakers" />
-      <h3>Classic Sneakers</h3>
-      <p>$45.00</p>
+    <div class="product">
+      <img src="images/sportmax-sneakers.jpg" alt="SportMax Sneakers">
+      <h3>SportMax Sneakers</h3>
+      <p>$55.00</p>
     </div>
-    <div class="product-card">
-      <img src="https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw5963031a/images/small/8216832_7.jpeg?sw=28" alt="Formal Leather Shoes" />
-      <h3>Formal Leather Shoes</h3>
-      <p>$60.00</p>
+    <div class="product">
+      <img src="images/eleganza-leather.jpg" alt="Eleganza Leather Shoes">
+      <h3>Eleganza Leather Shoes</h3>
+      <p>$75.00</p>
     </div>
-    <div class="product-card">
-      <img src="https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwaeda28cc/images/large/2256737_7.jp" alt="Kids School Shoes" />
-      <h3>Kids School Shoes</h3>
-      <p>$30.00</p>
+    <div class="product">
+      <img src="images/kiddo-step.jpg" alt="KiddoStep School Shoes">
+      <h3>KiddoStep School Shoes</h3>
+      <p>$35.00</p>
     </div>
   </div>
-</main>
-
-<footer>
-  <div class="container footer-content">
-    <p>&copy; 2025 Bata Shoe Company Zimbabwe. All rights reserved.</p>
-  </div>
-</footer>
 </body>
 </html>
